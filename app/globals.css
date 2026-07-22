@@ -350,6 +350,19 @@ label {
   padding: 64px clamp(0px, 7vw, 110px) 42px;
 }
 
+.route-map-client-only {
+  grid-template-columns: minmax(0, 720px);
+  justify-content: center;
+}
+
+.route-map-client-only .map-line {
+  left: 50%;
+  width: 1px;
+  height: 64px;
+  border-top: 0;
+  border-left: 1px solid var(--line);
+}
+
 .map-origin {
   position: absolute;
   z-index: 3;
